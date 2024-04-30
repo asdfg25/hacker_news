@@ -6,8 +6,7 @@ import { getTopStories } from "../app/getServices";
 import { getStory } from "../app/getServices";
 import { IStory } from "../app/types/StoryTypes";
 import classes from '../../src/app/styles/mainPage.module.css'
-import { Div, Button } from "@vkontakte/vkui"
-import {PanelHeader} from '@vkontakte/vkui'
+import { Div, Button,PanelHeader } from "@vkontakte/vkui"
 
 export const MainPage = () => {
 
